@@ -118,6 +118,10 @@ button img{
     }
 
     .navbar-left{
-        display: none;
+        position: absolute;
+        right:10px;
     }
+     .nav-btn{
+        display: none;
+     }
 }

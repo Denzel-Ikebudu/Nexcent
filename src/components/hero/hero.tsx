@@ -49,6 +49,10 @@ const Hero = () => {
   return (
     <div className='general'>
     <div className='hero-section'>
+      
+      <div className='hero-right'>
+        <img src={hero_illustration} alt="" />
+      </div>
       <div className='hero-left'>
         <h1>Lessons and insights <br/> <span>from 8 years</span></h1>
         <p>where to grow your business as a photographer: site or social media?</p>
@@ -56,9 +60,6 @@ const Hero = () => {
         <button>Register </button>
       </div>
 
-      <div className='hero-right'>
-        <img src={hero_illustration} alt="" />
-      </div>
     </div>
 
     <div className='client-section'>
