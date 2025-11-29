@@ -49,7 +49,7 @@ const Hero = () => {
   return (
     <div className='general'>
     <div className='hero-section'>
-      
+
       <div className='hero-right'>
         <img src={hero_illustration} alt="" />
       </div>
@@ -96,9 +96,9 @@ const Hero = () => {
         <h1>The unseen of spending three years at pixel grade</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda neque a deleniti praesentium temporibus id? At explicabo aliquam, voluptatem culpa assumenda soluta deleniti est illum fugit inventore, corporis unde? Harum quas maxime nisi nesciunt adipisci non, voluptas, doloremque fugiat eveniet repudiandae atque sapiente ipsam ab debitis dolorum quis perferendis vel!</p>
         <button>Learn More</button>
+      </div>
       <div className='frame4-left'>
         <img src={rafiki} alt="" />
-      </div>
       </div>
     </div>
 
