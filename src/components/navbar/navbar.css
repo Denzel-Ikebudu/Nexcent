@@ -1,0 +1,123 @@
+.navbar{
+    width: 100VW;
+    height: 58.76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 200.35px;
+    background: #ffffff;    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+.menu-icon{
+    display: none;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 22.27px;
+}
+.navbar-links{
+    display: flex;
+    align-items: center;
+    gap: 16.71px;
+
+}
+
+button{
+    width: 133.25px;
+    height: 34.69px;
+    padding: 22.27px 9.74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5.57px;
+    background: #4CAF4F;
+    border-radius: 2.78px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+button img{
+    width: 11.14px;
+    height: 11.14px;
+    color: #FFFFFF;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 5.57px;
+    width: 107.54px;
+    height: 16.71px;
+}
+.navbar-left img{
+    width: 24.36px;
+    height: 16.71px;
+}
+.navbar-left p{
+    background: none;
+    width: 77.61px;
+    height: 14.38px;    
+    color: #263238;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.navbar-links a{
+    text-decoration: none;
+    color: #4D4D4D;
+    font-family: 'Inter', sans-serif;
+    height: 17px;
+    gap: 5.57px;
+    background: none; 
+    display: inline-block;
+
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        height: auto;
+        padding: 10px 25px;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .menu-icon{
+        display: block;
+
+    }
+    .nav-btn{
+        padding: 8px 18px;
+    }
+    .navbar-links{
+        z-index: 5;
+        position: absolute;
+        top: 7%;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        padding: 0;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+
+    }
+    .navbar-links.active {
+        max-height: 300px;
+        opacity: 1;
+        padding: 20px 0;
+
+    }
+    .navbar-links a {
+        padding: 15px 15px;
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .navbar-left{
+        display: none;
+    }
+}
